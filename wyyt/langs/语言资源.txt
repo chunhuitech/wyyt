@@ -1,0 +1,10 @@
+popmenu.AppendMenu(0, ID_RICH_UNDO, L"&Undo");    撤消  IDS_RICH_UNDO
+	popmenu.AppendMenu(0, MF_SEPARATOR);
+	popmenu.AppendMenu(0, ID_RICH_CUT, L"&Cut");   剪切 IDS_RICH_CUT
+	popmenu.AppendMenu(0, ID_RICH_COPY, L"C&opy");　　复制 IDS_RICH_COPY
+	popmenu.AppendMenu(0, ID_RICH_PASTE, L"&Paste");　　 粘贴 IDS_RICH_PASTE
+	popmenu.AppendMenu(0, ID_RICH_CLEAR, L"C&lear");   清空 IDS_RICH_CLEAR
+	popmenu.AppendMenu(0, MF_SEPARATOR);
+	popmenu.AppendMenu(0, ID_RICH_SELECTALL, L"Select &All");  全选 IDS_RICH_SELECTALL
+	popmenu.AppendMenu(0, MF_SEPARATOR);
+	popmenu.AppendMenu(0, ID_RICH_SETFONT, L"Select &Font");   选择字体 IDS_RICH_SETFONT

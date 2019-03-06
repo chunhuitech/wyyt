@@ -1,0 +1,13 @@
+﻿生成启动时间为 2013/6/28 23:00:40。
+     1>项目“G:\IHAS\wyyt\code\wyyt\langs\en_US\en_US.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Release\en_US.unsuccessfulbuild”执行 Touch 任务。
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\en_US.res" en_US.rc 
+     1>..\..\wyyt\version.h(57): fatal error RC1004: unexpected end of file found
+         
+     1>已完成生成项目“G:\IHAS\wyyt\code\wyyt\langs\en_US\en_US.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:06.68

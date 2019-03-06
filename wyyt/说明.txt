@@ -1,0 +1,17 @@
+boost文件夹存放的是从boost_1_49_0.7z压缩包中的boost文件夹，
+
+wyyt->ResizableLib
+wyyt->cryptlib
+wyyt->cximage->libpng->zlib
+
+
+wyyt->lib_json
+配置属性-->库管理器-->常规  输出文件:$(ProjectDir)..\..\..\libs\$(Configuration)\$(ProjectName).lib
+ 无法解析的外部符号 "public: __thiscall Json::Value::~Value(void)"
+配置属性-->链接器-->输入 附加依赖项 加入lib_json.lib
+
+
+wyyt->htmlcxx
+https://www.cnblogs.com/striver-zhu/p/4451781.html
+
+wyyt.sln 基于vs 2010打开

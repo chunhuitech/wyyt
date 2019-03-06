@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_Publish|Win32">
+      <Configuration>Debug_Publish</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Publish|Win32">
+      <Configuration>Release_Publish</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{14AA8999-352F-4979-B446-9A9D2D814EA9}</ProjectGuid>
+    <RootNamespace>wyyt</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Publish|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Publish|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Publish|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Publish|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_Publish|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_Publish|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug_Publish|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_Publish|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_Publish|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release_Publish|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug_Publish|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug_Publish|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug_Publish|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release_Publish|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release_Publish|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release_Publish|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectName)_All</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>version.lib;ResizableLib.lib;cryptlib.lib;CxImage.lib;zlib.lib;libpng.lib;lib_json.lib;htmlcxx.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>..\libs\$(Configuration)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Publish|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_PUBLISH_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>version.lib;ResizableLib.lib;cryptlib.lib;CxImage.lib;zlib.lib;libpng.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>..\libs\$(Configuration)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>version.lib;ResizableLib.lib;cryptlib.lib;CxImage.lib;zlib.lib;libpng.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>..\libs\$(Configuration)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Publish|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_PUBLISH_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>version.lib;ResizableLib.lib;cryptlib.lib;CxImage.lib;zlib.lib;libpng.lib;lib_json.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>..\libs\$(Configuration)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\interface\DB\RecordAttachs.cpp" />
+    <ClCompile Include="..\interface\DB\SID.cpp" />
+    <ClCompile Include="..\interface\DB\RecordItem.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Publish|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="AddModClassInfoDlg.cpp" />
+    <ClCompile Include="AttachAddDlg.cpp" />
+    <ClCompile Include="AttachsDlg.cpp" />
+    <ClCompile Include="CheckPwdDlg.cpp" />
+    <ClCompile Include="DonateDlg.cpp" />
+    <ClCompile Include="GradientStatic.cpp" />
+    <ClCompile Include="PCInfo.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Publish|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="PPgDirSet.cpp" />
+    <ClCompile Include="PPgSecurity.cpp" />
+    <ClCompile Include="PrivateClassesTreeCtrl.cpp" />
+    <ClCompile Include="DataInfos.cpp" />
+    <ClCompile Include="DETimeValue.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Publish|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Publish|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="EditDelayed2.cpp" />
+    <ClCompile Include="ExportMange.cpp" />
+    <ClCompile Include="FileDetailDialog.cpp" />
+    <ClCompile Include="HTRichEditCtrl.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="PrivateSharedRecordsCtrl.cpp" />
+    <ClCompile Include="RecordDetails.cpp" />
+    <ClCompile Include="RecordDetailsAttachDlg.cpp" />
+    <ClCompile Include="RecordDetailsClassDlg.cpp" />
+    <ClCompile Include="RecordDetailsContentDlg.cpp" />
+    <ClCompile Include="RecordInfoSheetDlg.cpp" />
+    <ClCompile Include="ArchivePreviewDlg.cpp" />
+    <ClCompile Include="DataAccess.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Publish|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="DataDefine.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Publish|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Publish|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="DialogMinTrayBtn.cpp" />
+    <ClCompile Include="DirectoryTreeCtrl.cpp" />
+    <ClCompile Include="EditDelayed.cpp" />
+    <ClCompile Include="EnBitmap.cpp" />
+    <ClCompile Include="FilterDlg.cpp" />
+    <ClCompile Include="FilterItem.cpp" />
+    <ClCompile Include="GDIPlusUtil.cpp" />
+    <ClCompile Include="GlobalFunction.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Publish|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Publish|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="GroupResManageWnd.cpp" />
+    <ClCompile Include="I18n.cpp" />
+    <ClCompile Include="Ini2.cpp" />
+    <ClCompile Include="ListViewWalkerPropertySheet.cpp" />
+    <ClCompile Include="MeterIcon.cpp" />
+    <ClCompile Include="MuleListCtrl.cpp" />
+    <ClCompile Include="MuleStatusBarCtrl.cpp" />
+    <ClCompile Include="MuleToolBarCtrl.cpp" />
+    <ClCompile Include="NEO\Modeless.cpp" />
+    <ClCompile Include="OtherFunctions.cpp" />
+    <ClCompile Include="PPgGeneral.cpp" />
+    <ClCompile Include="Preferences.cpp" />
+    <ClCompile Include="PreferencesDlg.cpp" />
+    <ClCompile Include="PriResManageWnd.cpp" />
+    <ClCompile Include="RecPPClassDlg.cpp" />
+    <ClCompile Include="ResPublic.cpp" />
+    <ClCompile Include="RichEditCtrlX.cpp" />
+    <ClCompile Include="SharedDirsTreeCtrl.cpp" />
+    <ClCompile Include="SharedFilesCtrl.cpp" />
+    <ClCompile Include="SplitterControl.cpp" />
+    <ClCompile Include="sqlite3.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Publish|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Publish|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SQLiteDB.cpp" />
+    <ClCompile Include="Sqlite_T_SysClassInfos_Oper.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Publish|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Publish|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StringConversion.cpp" />
+    <ClCompile Include="SysResManageWnd.cpp" />
+    <ClCompile Include="SysResSearchDlg.cpp" />
+    <ClCompile Include="TestDlg.cpp" />
+    <ClCompile Include="TitleMenu.cpp" />
+    <ClCompile Include="ToolTipCtrlX.cpp" />
+    <ClCompile Include="TrayDialog.cpp" />
+    <ClCompile Include="TrayMenuBtn.cpp" />
+    <ClCompile Include="TreePropSheet.cpp" />
+    <ClCompile Include="TreePropSheetPgFrame.cpp" />
+    <ClCompile Include="TreePropSheetPgFrameDef.cpp" />
+    <ClCompile Include="Version.cpp" />
+    <ClCompile Include="VisualStylesXP.cpp" />
+    <ClCompile Include="WininetHttp.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Publish|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="wyyt.cpp" />
+    <ClCompile Include="wyytDlg.cpp" />
+    <ClCompile Include="wyytExtendDataManage.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Publish|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Publish|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="wyytExtendDataManagePri.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Publish|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Publish|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="WyytRichEditCtrl.cpp" />
+    <ClCompile Include="WyytSystrayDlg.cpp" />
+    <ClCompile Include="XMessageBox.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\interface\DB\DataStructDefine.h" />
+    <ClInclude Include="..\interface\DB\DbDefine.h" />
+    <ClInclude Include="..\interface\db\I_T_SysClassInfos_Oper.h" />
+    <ClInclude Include="..\interface\DB\RecordAttachs.h" />
+    <ClInclude Include="..\interface\DB\SID.h" />
+    <ClInclude Include="..\interface\DB\RecordItem.h" />
+    <ClInclude Include="AddModClassInfoDlg.h" />
+    <ClInclude Include="AttachAddDlg.h" />
+    <ClInclude Include="AttachsDlg.h" />
+    <ClInclude Include="CheckPwdDlg.h" />
+    <ClInclude Include="DonateDlg.h" />
+    <ClInclude Include="GradientStatic.h" />
+    <ClInclude Include="PCInfo.h" />
+    <ClInclude Include="PPgDirSet.h" />
+    <ClInclude Include="PPgSecurity.h" />
+    <ClInclude Include="PrivateClassesTreeCtrl.h" />
+    <ClInclude Include="DataInfos.h" />
+    <ClInclude Include="DETimeValue.h" />
+    <ClInclude Include="EditDelayed2.h" />
+    <ClInclude Include="ExportMange.h" />
+    <ClInclude Include="FileDetailDialog.h" />
+    <ClInclude Include="HighColorTab.hpp" />
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="PrivateSharedRecordsCtrl.h" />
+    <ClInclude Include="RecordDetails.h" />
+    <ClInclude Include="RecordDetailsAttachDlg.h" />
+    <ClInclude Include="RecordDetailsClassDlg.h" />
+    <ClInclude Include="RecordDetailsContentDlg.h" />
+    <ClInclude Include="RecordInfoSheetDlg.h" />
+    <ClInclude Include="AfxBeginMsgMapTemplate.h" />
+    <ClInclude Include="ArchivePreviewDlg.h" />
+    <ClInclude Include="DataAccess.h" />
+    <ClInclude Include="ExportDefine.h" />
+    <ClInclude Include="devlib_include.h" />
+    <ClInclude Include="DialogMinTrayBtn.h" />
+    <ClInclude Include="DirectoryTreeCtrl.h" />
+    <ClInclude Include="EditDelayed.h" />
+    <ClInclude Include="EnBitmap.h" />
+    <ClInclude Include="FilterDlg.h" />
+    <ClInclude Include="FilterItem.h" />
+    <ClInclude Include="GDIPlusUtil.h" />
+    <ClInclude Include="GlobalFunction.h" />
+    <ClInclude Include="GroupResManageWnd.h" />
+    <ClInclude Include="ini2.h" />
+    <ClInclude Include="langids.h" />
+    <ClInclude Include="ListCtrlItemWalk.h" />
+    <ClInclude Include="ListViewWalkerPropertySheet.h" />
+    <ClInclude Include="map_inc.h" />
+    <ClInclude Include="MemDC.h" />
+    <ClInclude Include="MenuCmds.h" />
+    <ClInclude Include="MeterIcon.h" />
+    <ClInclude Include="MuleListCtrl.h" />
+    <ClInclude Include="MuleStatusBarCtrl.h" />
+    <ClInclude Include="MuleToolBarCtrl.h" />
+    <ClInclude Include="NEO\Modeless.h" />
+    <ClInclude Include="OtherFunctions.h" />
+    <ClInclude Include="PPgGeneral.h" />
+    <ClInclude Include="Preferences.h" />
+    <ClInclude Include="PreferencesDlg.h" />
+    <ClInclude Include="PriResManageWnd.h" />
+    <ClInclude Include="RecPPClassDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ResPublic.h" />
+    <ClInclude Include="RichEditCtrlX.h" />
+    <ClInclude Include="SharedDirsTreeCtrl.h" />
+    <ClInclude Include="SharedFilesCtrl.h" />
+    <ClInclude Include="SplitterControl.h" />
+    <ClInclude Include="sqlite3.h" />
+    <ClInclude Include="sqlite3ext.h" />
+    <ClInclude Include="SQLiteDB.h" />
+    <ClInclude Include="Sqlite_T_SysClassInfos_Oper.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StringConversion.h" />
+    <ClInclude Include="SysResManageWnd.h" />
+    <ClInclude Include="SysResSearchDlg.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TestDlg.h" />
+    <ClInclude Include="TitleMenu.h" />
+    <ClInclude Include="ToolTipCtrlX.h" />
+    <ClInclude Include="TrayDialog.h" />
+    <ClInclude Include="TrayMenuBtn.h" />
+    <ClInclude Include="TreePropSheet.h" />
+    <ClInclude Include="TreePropSheetPgFrame.h" />
+    <ClInclude Include="TreePropSheetPgFrameDef.h" />
+    <ClInclude Include="UserMsgs.h" />
+    <ClInclude Include="Version.h" />
+    <ClInclude Include="VisualStylesXP.h" />
+    <ClInclude Include="WininetHttp.h" />
+    <ClInclude Include="wyyt.h" />
+    <ClInclude Include="maininfo.h" />
+    <ClInclude Include="wyytDlg.h" />
+    <ClInclude Include="wyytExtendDataManage.h" />
+    <ClInclude Include="wyytExtendDataManagePri.h" />
+    <ClInclude Include="WyytRichEditCtrl.h" />
+    <ClInclude Include="WyytSystrayDlg.h" />
+    <ClInclude Include="wyyt_site_config.h" />
+    <ClInclude Include="XMessageBox.h" />
+    <ClInclude Include="ModInfo.h" />
+    <ClInclude Include="Opcodes.h" />
+    <ClInclude Include="Types.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="res\About.ico" />
+    <None Include="res\AddParent.ico" />
+    <None Include="res\AddRecord.ico" />
+    <None Include="res\AddSon.ico" />
+    <None Include="res\AlterVersion.ico" />
+    <None Include="res\ArchivePreview.ico" />
+    <None Include="res\AttachsPreview.ico" />
+    <None Include="res\clear1.ico" />
+    <None Include="res\clear2.ico" />
+    <None Include="res\Comment.ico" />
+    <None Include="res\ConnectDo.ico" />
+    <None Include="res\ConnectDrop.ico" />
+    <None Include="res\ConnectStop.ico" />
+    <None Include="res\Construction.ico" />
+    <None Include="res\DelClassInfo.ico" />
+    <None Include="res\DelRecord.ico" />
+    <None Include="res\Exit.ico" />
+    <None Include="res\Folders.ico" />
+    <None Include="res\Help.ico" />
+    <None Include="res\icon2.ico" />
+    <None Include="res\ihas.ico" />
+    <None Include="res\IRC.ico" />
+    <None Include="res\Kad.ico" />
+    <None Include="res\ListViewSortDown.bmp" />
+    <None Include="res\ListViewSortDown2x.bmp" />
+    <None Include="res\ListViewSortUp.bmp" />
+    <None Include="res\ListViewSortUp2x.bmp" />
+    <None Include="res\Messages.ico" />
+    <None Include="res\ModClassInfo.ico" />
+    <None Include="res\ModRecord.ico" />
+    <None Include="res\note.ico" />
+    <None Include="res\notes.ico" />
+    <None Include="res\note_recomm.ico" />
+    <None Include="res\note_select.ico" />
+    <None Include="res\Preferences.ico" />
+    <None Include="res\RecordAttachInfos.ico" />
+    <None Include="res\RecordClassInfos.ico" />
+    <None Include="res\RecordContentInfos.ico" />
+    <None Include="res\RestoreWindow.ico" />
+    <None Include="res\SaveAs.ico" />
+    <None Include="res\Search.ico" />
+    <None Include="res\SearchEdit.ico" />
+    <None Include="res\Security.ico" />
+    <None Include="res\Server.ico" />
+    <None Include="res\SharedFiles.ico" />
+    <None Include="res\ShowRecord.ico" />
+    <None Include="res\Statistics.ico" />
+    <None Include="res\Tools.ico" />
+    <None Include="res\Transfer.ico" />
+    <None Include="res\TrayConnected.ico" />
+    <None Include="res\TrayDisconnected.ico" />
+    <None Include="res\TrayLowID.ico" />
+    <None Include="res\wyyt.ico" />
+    <None Include="res\wyyt.rc2" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="wyyt.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="wyyt.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

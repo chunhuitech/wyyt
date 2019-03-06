@@ -1,0 +1,933 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 非特定语言 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(936)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 wyyt"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDI_ICON_IHAS,IDC_STATIC,14,14,20,20
+    LTEXT           "wyyt 1.0.0.1 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2013",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_WYYT_DIALOG DIALOGEX 0, 0, 623, 368
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CONTROLPARENT | WS_EX_APPWINDOW
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "^&x",IDC_HOTMENU,14,24,16,14,NOT WS_VISIBLE
+    CONTROL         "",IDC_STATUSBAR,"msctls_statusbar32",0x3,7,347,609,14
+END
+
+IDD_DIALOG_SYS_RES_MANAGE DIALOGEX 0, 35, 535, 280
+STYLE DS_LOCALEDIT | DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "CTL 选择子类",IDC_STATIC_PROP_CLASSSEL,3,5,117,8
+    EDITTEXT        IDC_SRM_FILTER,147,177,26,14,ES_MULTILINE | ES_AUTOHSCROLL | NOT WS_VISIBLE
+    PUSHBUTTON      "",IDC_RELOADSCLASSINFOS,3,0,11,14,NOT WS_VISIBLE
+    CONTROL         "",IDC_SRM_CLASSINFOTREE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | TVS_CHECKBOXES | TVS_INFOTIP | WS_BORDER | WS_HSCROLL | WS_TABSTOP,2,16,121,257
+    CONTROL         "",IDC_SRM_RECORDLIST,"SysListView32",LVS_REPORT | LVS_SHAREIMAGELISTS | LVS_OWNERDRAWFIXED | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,129,23,397,130
+    LTEXT           "sys kad",IDC_STATIC,129,161,31,8,NOT WS_VISIBLE
+    PUSHBUTTON      "",IDC_BTN_HIDESHOWDETAILS,512,155,12,12
+    EDITTEXT        IDC_SRM_RECORD_FILTER,130,6,331,14,ES_MULTILINE | ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_GROUP_RES_MANAGER DIALOGEX 0, 35, 423, 222
+STYLE DS_LOCALEDIT | DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "group transferwnd",IDC_STATIC,120,9,63,8
+END
+
+IDD_DIALOG_PRI_RES_MANAGE DIALOGEX 0, 35, 535, 280
+STYLE DS_LOCALEDIT | DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_PRI_RECORD_FILTER,132,4,327,14,ES_MULTILINE | ES_AUTOHSCROLL
+    LTEXT           "CTL 选择子类",IDC_STATIC_PROP_CLASSSEL_PRI,9,5,114,8
+    CONTROL         "",IDC_PRM_CLASSINFOTREE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | TVS_CHECKBOXES | TVS_INFOTIP | WS_BORDER | WS_HSCROLL | WS_TABSTOP,9,16,119,255
+    CONTROL         "",IDC_PRM_RECORDLIST,"SysListView32",LVS_REPORT | LVS_SHAREIMAGELISTS | LVS_OWNERDRAWFIXED | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,132,23,397,130
+    PUSHBUTTON      "",IDC_BTN_HIDESHOWDETAILS_PRI,514,155,12,12
+    EDITTEXT        IDC_PRM_FILTER,191,223,40,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+END
+
+IDD_DIALOG_ARCHPREV DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_RICHEDIT2_NR,"RichEdit20W",WS_BORDER | WS_VSCROLL | WS_HSCROLL | 0x8c4,7,7,302,169
+END
+
+IDD_DIALOG_PPG_GENERAL DIALOGEX 0, 0, 295, 218
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "General"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_LANG_FRM,7,38,215,29
+    COMBOBOX        IDC_LANGS,14,49,194,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "退出时提示",IDC_EXIT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,22,95,174,10
+    PUSHBUTTON      "更新版本信息",IDC_BUTTON_VERINFO,169,131,94,14
+    EDITTEXT        IDC_EDIT_VERSION,9,149,253,63,ES_MULTILINE | WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "更新系统数据",IDC_BUTTON_UPSYSDATA,48,130,80,14,NOT WS_VISIBLE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_WYYT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 616
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 361
+    END
+
+    IDD_DIALOG_SYS_RES_MANAGE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 530
+        BOTTOMMARGIN, 274
+    END
+
+    IDD_DIALOG_GROUP_RES_MANAGER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 416
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 215
+    END
+
+    IDD_DIALOG_PRI_RES_MANAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 532
+        BOTTOMMARGIN, 274
+    END
+
+    IDD_DIALOG_ARCHPREV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_DIALOG_PPG_GENERAL, DIALOG
+    BEGIN
+        RIGHTMARGIN, 294
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IRC                     ICON                    "res\\IRC.ico"
+#endif    // 非特定语言 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_SYSRES_SEARCH DIALOGEX 0, 0, 316, 180
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,205,159,50,14
+    PUSHBUTTON      "取消",IDCANCEL,259,159,50,14
+END
+
+IDD_DLG_ADDMOD_CLASSINFO DIALOGEX 0, 0, 290, 127
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,63,106,50,14
+    PUSHBUTTON      "取消",IDCANCEL,151,106,50,14
+    LTEXT           "请输入新分类名称:",IDC_STATIC_NEWCLASSNAME,29,21,103,8
+    EDITTEXT        IDC_EDIT_NEWCLASSNAME,31,36,168,14,ES_AUTOHSCROLL
+END
+
+IDD_DLG_REC_PP_CLASS DIALOGEX 0, 0, 384, 305
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_BORDER | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_DIALOG_RECORD_DETAILS DIALOGEX 0, 0, 607, 355
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MAXIMIZEBOX | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_LEFTSCROLLBAR
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,186,325,50,14
+    PUSHBUTTON      "取消",IDCANCEL,285,325,50,14
+    CONTROL         "",IDC_LIST_OPER_OPTION,"SysListView32",LVS_LIST | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,113,299
+    CONTROL         "",IDC_STATIC_FRAME_INFO,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,7,307,163,41
+END
+
+IDD_DIALOG_RECORD_DETAILS_CLASS DIALOGEX 0, 0, 362, 219
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TREE_CLASSES,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | TVS_CHECKBOXES | TVS_INFOTIP | WS_BORDER | WS_HSCROLL | WS_TABSTOP,7,22,348,190
+    LTEXT           "Static",IDC_STATIC_PROPINFO,7,9,348,11
+END
+
+IDD_DIALOG_RECORD_DETAILS_CONTENT DIALOGEX 0, 0, 392, 299
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "title",IDC_STATIC_TITLE,10,22,39,8
+    LTEXT           "关键字",IDC_STATIC_KEY,10,50,39,8
+    LTEXT           "内容：",IDC_STATIC_CONTENT,7,122,64,8
+    EDITTEXT        IDC_EDIT_TITLE,66,20,280,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_KEY,65,46,281,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CONTENT,350,122,35,94,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | NOT WS_VISIBLE | WS_VSCROLL | WS_HSCROLL
+    LTEXT           "参考：",IDC_STATIC_REF,7,231,80,8
+    EDITTEXT        IDC_EDIT_REF,7,245,378,47,ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    LTEXT           "分类",IDC_STATIC_CLASSES,7,82,52,8
+    CONTROL         "",IDC_RICHEDIT2_SELCLASSINFO,"RichEdit20W",WS_BORDER | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP | 0x1884,63,71,317,47
+    CONTROL         "",IDC_RICHEDIT2_CONTENT,"RichEdit20W",WS_BORDER | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP | 0x10c4,7,131,371,99
+END
+
+IDD_DIALOG_RECORD_DETAILS_ATTACH DIALOGEX 0, 0, 500, 280
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_ATTACHS,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,106,486,167
+    PUSHBUTTON      "add",IDC_BUTTON_ADD,136,83,50,14
+    PUSHBUTTON      "del",IDC_BUTTON_DEL,257,83,50,14
+    LTEXT           "UpfullName:",IDC_STATIC_FULLNAME_UP,15,32,57,8
+    EDITTEXT        IDC_EDIT_FULLNAME_UP,76,33,404,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    LTEXT           "downAddress:",IDC_STATIC_DOWNADDRESS,15,65,47,8
+    EDITTEXT        IDC_EDIT_DOWNADDRESS,76,66,404,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    LTEXT           "CODEID：",IDC_STATIC_CODEID,15,17,47,8
+    EDITTEXT        IDC_EDIT_CODEID,77,17,131,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    LTEXT           "fullName:",IDC_STATIC_FULLNAME_SAVE,16,49,58,8
+    EDITTEXT        IDC_EDIT_FULLNAME_SAVE,77,50,404,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+END
+
+IDD_DIALOG_RECORD_DETAILS_ATTACH_ADD DIALOGEX 0, 0, 452, 275
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "ok",IDOK,109,222,50,14
+    PUSHBUTTON      "cancel",IDCANCEL,243,222,50,14
+    LTEXT           "downadress:",IDC_STATIC_DOWNADRESS,35,101,47,8
+    EDITTEXT        IDC_EDIT_DOWNADDRESS,106,98,321,14,ES_AUTOHSCROLL
+    LTEXT           "selectFile:",IDC_STATIC_SELECTUPFILE,35,39,47,8
+    EDITTEXT        IDC_EDIT_UPFILE,102,37,295,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_BROWSEV,401,37,22,14
+    LTEXT           "info",IDC_STATIC_INFO,36,134,43,8
+    EDITTEXT        IDC_EDIT_INFO,105,133,319,55,ES_MULTILINE | ES_AUTOHSCROLL
+    LTEXT           "filename:",IDC_STATIC_FILENAME,35,69,54,8
+    EDITTEXT        IDC_EDIT_FILENAME,103,67,292,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_ATTACHS DIALOGEX 0, 0, 395, 233
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "downAddress:",IDC_STATIC_DOWNADDRESS,12,39,47,8
+    EDITTEXT        IDC_EDIT_DOWNADDRESS,89,38,276,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    LTEXT           "CODEID：",IDC_STATIC_CODEID,12,14,47,8
+    EDITTEXT        IDC_EDIT_CODEID,89,12,287,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    LTEXT           "fullName:",IDC_STATIC_FULLNAME_SAVE,12,27,58,8
+    EDITTEXT        IDC_EDIT_FULLNAME_SAVE,89,25,280,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    CONTROL         "",IDC_LIST_ATTACHS,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,52,381,174
+END
+
+IDD_DIALOG_TEST DIALOGEX 0, 0, 316, 180
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,205,159,50,14
+    PUSHBUTTON      "取消",IDCANCEL,259,159,50,14
+    EDITTEXT        IDC_EDIT_TEST,75,66,93,14,ES_MULTILINE | ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_PPG_DIRS DIALOGEX 0, 0, 316, 182
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CAPTION | WS_SYSMENU
+CAPTION "DIR"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_SYSATTACHPATH,24,31,228,14,ES_AUTOHSCROLL
+    LTEXT           "系统附件目录：",IDC_STATIC_SYSATTACHPATH,23,18,126,8
+    PUSHBUTTON      "...",IDC_BUTTON_SYSATTACHSEL,251,31,27,14
+    EDITTEXT        IDC_EDIT_PRIATTACHPATH,22,71,228,14,ES_AUTOHSCROLL
+    LTEXT           "个人附件目录：",IDC_STATIC_PRIATTACHPATH,21,58,126,8
+    PUSHBUTTON      "...",IDC_BUTTON_PRIATTACHSEL,249,71,27,14
+END
+
+IDD_PPG_SECURITY DIALOGEX 0, 0, 306, 222
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CAPTION | WS_SYSMENU
+CAPTION "security"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "启用私有资料密码验证",IDC_CHECK_PRI_PWD_ENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,33,13,96,10
+    LTEXT           "用户名：",IDC_STATIC_USERNAME,37,33,36,8
+    LTEXT           "密码：",IDC_STATIC_PWD,39,52,38,8
+    EDITTEXT        IDC_EDIT_PWD,87,49,104,14,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_USERNAME,87,30,104,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_LOGIN_PRI DIALOGEX 0, 0, 201, 126
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "验证"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,36,91,50,14
+    PUSHBUTTON      "取消",IDCANCEL,111,90,50,14
+    LTEXT           "用户名：",IDC_STATIC_SHOW_USERNAME,29,34,33,8
+    LTEXT           "密  码：",IDC_STATIC_SHOW_USERPWD,28,55,29,8
+    EDITTEXT        IDC_EDIT_USERNAME_CHECK,72,31,86,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_USERPWD_CHECK,72,50,86,14,ES_PASSWORD | ES_AUTOHSCROLL
+END
+
+IDD_WYYTTRAYDLG DIALOGEX 0, 0, 131, 76
+STYLE DS_SETFONT | DS_MODALFRAME | DS_SETFOREGROUND | DS_FIXEDSYS | WS_POPUP
+EXSTYLE WS_EX_TOPMOST | WS_EX_TOOLWINDOW
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_SIDEBAR,0,0,16,74
+    LTEXT           "",IDC_TRAY_EXIT,17,60,112,14,WS_BORDER
+    LTEXT           "",IDC_RESTORE,17,41,112,14,WS_BORDER
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,19,57,112,1
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,18,37,112,1
+    LTEXT           "",IDC_PREFERENCES,17,21,112,14,WS_BORDER
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,19,17,112,1
+    LTEXT           "",IDC_ABOUT,18,1,112,14,WS_BORDER
+END
+
+IDD_DIALOG_DONATE DIALOGEX 0, 0, 332, 196
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "捐赠"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,142,175,50,14
+    EDITTEXT        IDC_EDIT_BANK,27,33,277,130,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG_SYSRES_SEARCH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 173
+    END
+
+    IDD_DLG_ADDMOD_CLASSINFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 283
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 120
+    END
+
+    IDD_DLG_REC_PP_CLASS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 377
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 298
+    END
+
+    IDD_DIALOG_RECORD_DETAILS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 600
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 348
+    END
+
+    IDD_DIALOG_RECORD_DETAILS_CLASS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 212
+    END
+
+    IDD_DIALOG_RECORD_DETAILS_CONTENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 385
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 292
+    END
+
+    IDD_DIALOG_RECORD_DETAILS_ATTACH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 493
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 273
+    END
+
+    IDD_DIALOG_RECORD_DETAILS_ATTACH_ADD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 445
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 268
+    END
+
+    IDD_DIALOG_ATTACHS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 388
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 226
+    END
+
+    IDD_DIALOG_TEST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 173
+    END
+
+    IDD_DIALOG_PPG_DIRS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+    END
+
+    IDD_PPG_SECURITY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 299
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 215
+    END
+
+    IDD_DIALOG_LOGIN_PRI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 194
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 119
+    END
+
+    IDD_WYYTTRAYDLG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 74
+    END
+
+    IDD_DIALOG_DONATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 325
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 189
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\wyyt.ico"
+CONNECT                 ICON                    "res\\ConnectDo.ico"
+DISCONNECT              ICON                    "res\\ConnectDrop.ico"
+STOPCONNECTING          ICON                    "res\\ConnectStop.ico"
+KADEMLIA                ICON                    "res\\Kad.ico"
+SERVER                  ICON                    "res\\Server.ico"
+TRANSFER                ICON                    "res\\Transfer.ico"
+TOOLS                   ICON                    "res\\Tools.ico"
+SEARCH                  ICON                    "res\\Search.ico"
+SHAREDFILES             ICON                    "res\\SharedFiles.ico"
+MESSAGES                ICON                    "res\\Messages.ico"
+STATISTICS              ICON                    "res\\Statistics.ico"
+PREFERENCES             ICON                    "res\\Preferences.ico"
+HELP                    ICON                    "res\\Help.ico"
+IDI_ICON_IHAS           ICON                    "res\\ihas.ico"
+TRAYCONNECTED           ICON                    "res\\TrayConnected.ico"
+TRAYNOTCONNECTED        ICON                    "res\\TrayDisconnected.ico"
+TRAYLOWID               ICON                    "res\\TrayLowID.ico"
+SAVE_AS                 ICON                    "res\\SaveAs.ico"
+ALTER_VERSION           ICON                    "res\\AlterVersion.ico"
+COMMENT                 ICON                    "res\\Comment.ico"
+NOTES                   ICON                    "res\\notes.ico"
+NOTE                    ICON                    "res\\note.ico"
+ADDPARENT               ICON                    "res\\AddParent.ico"
+ADDSON                  ICON                    "res\\AddSon.ico"
+MODCLASSINFO            ICON                    "res\\ModClassInfo.ico"
+DELCLASSINFO            ICON                    "res\\DelClassInfo.ico"
+NODE_SELECTED           ICON                    "res\\note_select.ico"
+NODE_RECOMM             ICON                    "res\\note_recomm.ico"
+ADDRECORD               ICON                    "res\\AddRecord.ico"
+MODRECORD               ICON                    "res\\ModRecord.ico"
+DELRECORD               ICON                    "res\\DelRecord.ico"
+SHOWRECORD              ICON                    "res\\ShowRecord.ico"
+RECORDCLASSINFOS        ICON                    "res\\RecordClassInfos.ico"
+RECORDCONTENTINFOS      ICON                    "res\\RecordContentInfos.ico"
+RECORDATTACHINFOS       ICON                    "res\\RecordAttachInfos.ico"
+ARCHIVE_PREVIEW         ICON                    "res\\ArchivePreview.ico"
+ATTACH_PREVIEW          ICON                    "res\\AttachsPreview.ico"
+SEARCHEDIT              ICON                    "res\\SearchEdit.ico"
+FILTERCLEAR1            ICON                    "res\\clear1.ico"
+FILTERCLEAR2            ICON                    "res\\clear2.ico"
+FOLDERS                 ICON                    "res\\Folders.ico"
+SECURITY                ICON                    "res\\Security.ico"
+CONSTRUCTION            ICON                    "res\\Construction.ico"
+RESTOREWINDOW           ICON                    "res\\RestoreWindow.ico"
+EXIT                    ICON                    "res\\Exit.ico"
+ABOUT                   ICON                    "res\\About.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\wyyt.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,1,1
+ PRODUCTVERSION 1,1,1,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "wyyt"
+            VALUE "FileDescription", "wyyt"
+            VALUE "FileVersion", "1.1.1.1"
+            VALUE "InternalName", "wyyt.exe"
+            VALUE "LegalCopyright", "TODO: (C) <wyyt>。保留所有权利。"
+            VALUE "OriginalFilename", "wyyt.exe"
+            VALUE "ProductName", "wyyt"
+            VALUE "ProductVersion", "1.1.1.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_DOWN2X              BITMAP                  "res\\ListViewSortDown2x.bmp"
+IDB_DOWN                BITMAP                  "res\\ListViewSortDown.bmp"
+IDB_UP2X                BITMAP                  "res\\ListViewSortUp2x.bmp"
+IDB_UP                  BITMAP                  "res\\ListViewSortUp.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_LISTVIEW ACCELERATORS
+BEGIN
+    VK_RETURN,      IDA_ENTER,              VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "关于 wyyt(&A)..."
+    IDS_ERR_CREATE_DIR      "创建 %s 目录失败 """"%s"""" - %s"
+    IDS_INIT_DIR_SYS_ATTACHENTS "系统附件目录"
+    IDS_INIT_DIR_TEMP       "临时文件夹目录"
+    IDS_ABORT               "关于"
+    IDS_CANCEL              "取消"
+    IDS_CONTINUE            "继续"
+    IDS_DONOTASKAGAIN       "不要再问我"
+    IDS_DONOTTELLAGAIN      "不要再告诉我"
+    IDS_DONOTSHOWAGAIN      "不要再显示"
+    IDS_IGNORE              "忽略"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_IGNOREALL           "忽略所有"
+    IDS_NO                  "否"
+    IDS_NOTOALL             "所有全否"
+    IDS_TREEOPTIONS_OK      "确定(&O)"
+    IDS_RETRY               "重试"
+    IDS_SKIP                "跳过"
+    IDS_SKIPALL             "跳过所有"
+    IDS_TRYAGAIN            "重试"
+    IDS_MB_YES              "确定"
+    IDS_YESTOALL            "确定所有"
+    IDS_INIT_DIR_CONFIG     "系统配置目录"
+    IDS_INIT_DIRS           "系统目录"
+    IDS_MB_LANGUAGEINFO     "默认语言为简体中文。\r\n\r\n您可以选择设置运行框，重新设置"
+    IDS_MAIN_BTN_CONNECT    "连接(&C)"
+    IDS_YT_SYSRES           "系统(&S)"
+    IDS_YT_GROUPRES         "群组(&G)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_YT_PRIVATERES       "私有(&P)"
+    IDS_EM_SEARCH           "搜索(&S)"
+    IDS_EM_FILES            "共享文件(&F)"
+    IDS_EM_MESSAGES         "消息(&M)"
+    IDS_IRC                 "&IRC"
+    IDS_EM_STATISTIC        "统计信息(&A)"
+    IDS_EM_PREFS            "选项(&O)"
+    IDS_TOOLS               "工具"
+    IDS_EM_HELP             "帮助(&H)"
+    IDS_SELECTTOOLBARBITMAPDIR "选择位图目录"
+    IDS_LOADFILTER_EMTOOLBAR "工具条图位文件"
+    IDS_SELSKINPROFILEDIR   "选择存放外观配置文件的文件夹"
+    IDS_LOADFILTER_EMSKINFILES "皮肤文件"
+    IDS_SELECTTOOLBARBITMAP "为工具条选择位图"
+    IDS_DEFAULT             "默认值"
+    IDS_NOTEXTLABELS        "无标签"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ENABLETEXTLABELS    "在图表下面显示"
+    IDS_TEXTLABELSONRIGHT   "在图表右侧显示"
+    IDS_LARGEICONS          "大图标"
+    IDS_SEL_SKIN            "选择外观 ..."
+    IDS_SEL_SKINDIR         "选择外观目录 ..."
+    IDS_SMALLICONS          "小图标"
+    IDS_TOOLBARSKINS        "工具条外观"
+    IDS_SKIN_PROF           "外观配置"
+    IDS_TEXTLABELS          "文本标签"
+    IDS_CUSTOMIZETOOLBAR    "定制工具条"
+    IDS_SEARCH_ANY          "任意"
+    IDS_SHAREDFOLDERS       "共享目录"
+    IDS_VIEW1               "查看"
+    IDS_VIEW2               "(未共享)"
+    IDS_CONTENT_INFO        "内容"
+    IDS_PW_APPLY            "应用"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PW_TRAY             "最小化为系统托盘图标"
+    IDS_READONLY            "只读"
+    IDS_PW_GENERAL          "常规"
+    IDS_PW_LANG             "语言"
+    IDS_DL_RECORD_TITLE     "标题"
+    IDS_DL_RECORD_SIZE      "大小"
+    IDS_RECORD_SUMMARY      "摘要"
+    IDS_SYS_RESOURCES       "系统资源"
+    IDS_SAVE_AS             "另存为"
+    IDS_SHOW_ALTER_VERSION  "显示修改版本记录"
+    IDS_SHOW_COMMENT        "查看评论"
+    IDS_DETAILS             "详细资料"
+    IDS_ALLCLASSINFOS       "所有资源"
+    IDS_CLASSINFOOPERATOR   "分类信息维护"
+    IDS_ADD_PARENTCLASS     "添加父类信息"
+    IDS_ADD_SONCLASS        "添加子类"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MOD_CLASSINFO       "修改类信息"
+    IDS_DEL_CLASSINFO       "删除类信息"
+    IDS_ADD_CLASSINFO_PROMPT "子类下不能增加"
+    IDS_STATIC_CLASSINFO_NEWNAME "请输入分类名称:"
+    IDS_TITLE_ADDCLASSINFO  "添加分类信息"
+    IDS_TITLE_MODCLASSINFO  "修改分类信息"
+    IDS_DEL_CLASSINFO_PROMPT "请先删除子节点"
+    IDS_DEL_SYSCLASSINFO_PROMPT "不能删除系统节点"
+    IDS_FLAG_CLASSINFO_RECOMMEND "设置推荐"
+    IDS_FLAG_CLASSINFO_RECOMMEND_CANCLE "取消推荐"
+    IDS_SYS_NOTESCLASSINFOS "系统公告"
+    IDS_KBYTESPERSEC        "KB/s"
+    IDS_BYTESPERSEC         "B/s"
+    IDS_BYTES               "字节"
+    IDS_MBYTESPERSEC        "MB/s"
+    IDS_GBYTESPERSEC        "GB/s"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TBYTESPERSEC        "TB/s"
+    IDS_KBYTES              "KB"
+    IDS_MBYTES              "MB"
+    IDS_GBYTES              "GB"
+    IDS_TBYTES              "TB"
+    IDS_SRM_RELOAD          "刷新"
+    IDS_ADDRECORD           "新增记录"
+    IDS_MODRECORD           "修改记录"
+    IDS_DELRECORD           "删除记录"
+    IDS_SHOWRECORD          "查看记录"
+    IDS_RECORD_OPERTYPE_CLASS "分类"
+    IDS_RECORD_OPERTYPE_CONTENT "内容"
+    IDS_PROP_INFO_TITLE     "标题："
+    IDS_PROP_INFO_KEY       "关键字："
+    IDS_PROP_INFO_CONTENT   "内容："
+    IDS_PROP_INFO_REF       "参考引用："
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CLASSINFOSEL        "类别选择"
+    IDS_FLAG_RECORD_MAINCLASS "设置为主类"
+    IDS_FLAG_RECORD_MAINCLASS_CANCLE "取消主类"
+    IDS_PROP_INFO_SUCCESS   "操作成功"
+    IDS_PROP_INFO_FIRST_CANCEL_MAINCLASS "请先取消原主类，再设置新主类"
+    IDS_LOGENTRY            "日志项目"
+    IDS_COPY                "复制"
+    IDS_SELECTALL           "全选"
+    IDS_PW_RESET            "清除"
+    IDS_SAVELOG             "保存日志"
+    IDS_AUTOSCROLL          "自动滚动"
+    IDS_PROP_INFO_FIRST_SEL_MAINCLASS "请先选择所属于主分类"
+    IDS_PROP_INFO_FIRST_MAINCLASS "主分类："
+    IDS_PROP_INFO_CLASSES   "所属分类："
+    IDS_SEL_SYSCLASSINFO_PROMPT "不能选择根节点"
+    IDS_PROP_SELBYCTL       "按着CTRL键点击以选择子类"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PROP_INFO_SEL_MAXCOUNTS "所属分类数量不能超过%d个!"
+    IDS_PROP_INFO_SEL_MAINMUST "必须选择主分类"
+    IDS_PROP_INFO_TITLE_NULL "标题不能为空"
+    IDS_CONFIRM_RECORDDELETE "你确信要删除所选定的记录吗?"
+    IDS_DL_RECORD_SID       "编号"
+    IDS_DL_RECORD_MODTIME   "修改时间"
+    IDS_DL_RECORD_INPUTTIME "录入时间"
+    IDS_RECORD_OPERTYPE_ATTACH "附件"
+    IDS_CODE                "编号"
+    IDS_FILENAME            "文件名"
+    IDS_FILESIZE            "文件大小"
+    IDS_FILESTATUS          "文件状态"
+    IDS_ADD                 "添加"
+    IDS_DEL                 "删除"
+    IDS_FS_UNDOWNED         "未下载"
+    IDS_FS_DOWNED           "已下载"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATIC_DOWNADDRESS  "下载地址："
+    IDS_STATIC_FULLNAME_UP  "上传文件路径："
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATIC_CODEID       "编号："
+    IDS_OK                  "确定"
+    IDS_ATTACH_ADD          "添加附件"
+    IDS_STATIC_FULLNAME_SAVE "保存文件路径："
+    IDS_ALARM_MAXATTACH     "附件数量过多"
+    IDS_STATIC_SELECTUPFILE "选择文件："
+    IDS_UNDO                "撤销"
+    IDS_CUT                 "剪切"
+    IDS_PASTE               "粘贴"
+    IDS_DELETESELECTED      "删除"
+    IDS_FSTAT_WAITING       "等待 ..."
+    IDS_ATTACH              "附件"
+    IDS_OPEN_FILE           "打开文件"
+    IDS_FILE_SAVEAS         "文件另存为"
+    IDS_RICH_UNDO           "撤消"
+    IDS_RICH_CUT            "剪切"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RICH_COPY           "复制"
+    IDS_RICH_PASTE          "粘贴"
+    IDS_RICH_CLEAR          "清空"
+    IDS_RICH_SELECTALL      "全选"
+    IDS_RICH_SETFONT        "选择字体"
+    IDS_PW_DIRSET           "目录"
+    IDS_SELECT_SYSATTACHDIR "选择系统附件目录"
+    IDS_SELECT_PRIATTACHDIR "选择个人附件目录"
+    IDS_SECURITY            "安全"
+    IDS_PRI_PWD_ENABLE      "启用私有资料密码验证"
+    IDS_PRI_USERNAME        "用户名："
+    IDS_PRI_PWD             "密 码："
+    IDS_PASSCHECK           "密码验证"
+    IDS_PROP_USERPWD_EMPTY  "用户名或密码为空"
+    IDS_ABOUT_INFOS         "关于"
+    IDS_HOTMENU             "快捷菜单"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HM_LINKHP           "wyyt主页"
+    IDS_HM_LINKFAQ          "wyyt常见问题解答"
+    IDS_HM_LINKVC           "wyyt版本检查"
+    IDS_WEBSVEDIT           "编辑Web服务"
+    IDS_CONSTRUCTION        "项目信息"
+    IDS_LINKS               "链接"
+    IDS_CLOSEWYYT           "关闭wyyt"
+    IDS_MAIN_EXIT           "真的要退出wyyt?"
+    IDS_PW_PROMPT           "退出时提示确认"
+    IDS_INFOS               "信息"
+    IDS_MAIN_POPUP_RESTORE  "还原"
+    IDS_EXIT                "退出(&E)"
+    IDS_FILE_MOD            "修改"
+    IDS_STATIC_INFO         "说明信息"
+    IDS_ATTACH_OPENFOLDER   "打开文件夹"
+    IDS_ATTACH_SHOW         "查看详细"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATIC_FILENAME     "文件名:"
+    IDS_PROP_INFO_CONTENTTOOLENGTH "内容太过长"
+    IDS_INFO_VERSIONS       "当前数据版本:%s,最新版本:%s"
+    IDS_DONATEDE            "捐赠"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\wyyt.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

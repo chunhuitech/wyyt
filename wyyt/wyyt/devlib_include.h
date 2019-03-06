@@ -1,0 +1,13 @@
+#ifndef __DEVLIB_INCLUDE_H__
+#define __DEVLIB_INCLUDE_H__
+
+////////////////////stl////////////////////////////////////////////////////////
+#include <string>
+#include <vector>
+#include <set>
+#include <map>
+#include <algorithm>
+using namespace std;
+////////////////////boost//////////////////////////////////////////////////////
+
+#endif /* !__DEVLIB_INCLUDE_H__ */

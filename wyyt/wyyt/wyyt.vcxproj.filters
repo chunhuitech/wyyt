@@ -1,0 +1,780 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Comment">
+      <UniqueIdentifier>{741443ed-8020-44bb-a8ee-88d27518ce1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface Header">
+      <UniqueIdentifier>{68029c7b-5cbc-4922-86cd-127edfbd90b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface Source">
+      <UniqueIdentifier>{70188d62-3b16-438e-9c17-00b7c14370e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="define Model">
+      <UniqueIdentifier>{531f14f3-63c1-41af-b0cf-0d38d6cc0730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="temp">
+      <UniqueIdentifier>{2f9b8c0d-f93e-458a-a313-898e4a7aff78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="属性页">
+      <UniqueIdentifier>{87e73a72-1c04-4b8f-88d1-064bc7528096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{7d3e79ef-5b47-4777-8909-30a40943f6a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExData">
+      <UniqueIdentifier>{729bc652-c31e-4ced-90d0-84342c3046a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{eb8a857e-1341-45ed-bfa1-9fa56852ec4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExData\interface">
+      <UniqueIdentifier>{64282732-fad4-4328-b665-73a5739284b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExData\sqllite">
+      <UniqueIdentifier>{79c91a8f-dbf8-4f8a-ac1b-bff2b7c2c340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResPrivate">
+      <UniqueIdentifier>{14718680-a1a5-4e4c-aa03-fa58642e92c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResSys">
+      <UniqueIdentifier>{356d2cf8-2dcb-4dfc-8211-215987943a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResPublic">
+      <UniqueIdentifier>{1aa211c6-88d2-401f-96f3-722c1447b9e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Preferences.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wyyt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wyytDlg.cpp">
+      <Filter>Interface Source</Filter>
+    </ClCompile>
+    <ClCompile Include="XMessageBox.cpp">
+      <Filter>Interface Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogMinTrayBtn.cpp">
+      <Filter>Interface Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualStylesXP.cpp">
+      <Filter>Interface Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TrayDialog.cpp">
+      <Filter>Interface Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MuleStatusBarCtrl.cpp">
+      <Filter>Interface Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MuleToolBarCtrl.cpp">
+      <Filter>Interface Source</Filter>
+    </ClCompile>
+    <ClCompile Include="EnBitmap.cpp">
+      <Filter>Interface Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GDIPlusUtil.cpp">
+      <Filter>Interface Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleMenu.cpp">
+      <Filter>Interface Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterDlg.cpp">
+      <Filter>Interface Source</Filter>
+    </ClCompile>
+    <ClCompile Include="EditDelayed.cpp">
+      <Filter>Interface Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterItem.cpp">
+      <Filter>Interface Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupResManageWnd.cpp">
+      <Filter>Interface Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitterControl.cpp">
+      <Filter>Interface Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ListViewWalkerPropertySheet.cpp">
+      <Filter>Interface Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ArchivePreviewDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeterIcon.cpp">
+      <Filter>Interface Source</Filter>
+    </ClCompile>
+    <ClCompile Include="NEO\Modeless.cpp">
+      <Filter>Interface Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PreferencesDlg.cpp">
+      <Filter>属性页</Filter>
+    </ClCompile>
+    <ClCompile Include="TreePropSheet.cpp">
+      <Filter>属性页</Filter>
+    </ClCompile>
+    <ClCompile Include="TreePropSheetPgFrame.cpp">
+      <Filter>属性页</Filter>
+    </ClCompile>
+    <ClCompile Include="TreePropSheetPgFrameDef.cpp">
+      <Filter>属性页</Filter>
+    </ClCompile>
+    <ClCompile Include="PPgGeneral.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wyytExtendDataManage.cpp">
+      <Filter>ExData</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherFunctions.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="I18n.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="Ini2.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="StringConversion.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalFunction.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedDirsTreeCtrl.cpp">
+      <Filter>ResSys</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedFilesCtrl.cpp">
+      <Filter>ResSys</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolTipCtrlX.cpp">
+      <Filter>ResSys</Filter>
+    </ClCompile>
+    <ClCompile Include="MuleListCtrl.cpp">
+      <Filter>ResSys</Filter>
+    </ClCompile>
+    <ClCompile Include="AddModClassInfoDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataAccess.cpp">
+      <Filter>ExData</Filter>
+    </ClCompile>
+    <ClCompile Include="Sqlite_T_SysClassInfos_Oper.cpp">
+      <Filter>ExData</Filter>
+    </ClCompile>
+    <ClCompile Include="DataDefine.cpp">
+      <Filter>ExData</Filter>
+    </ClCompile>
+    <ClCompile Include="SysResSearchDlg.cpp">
+      <Filter>ResSys</Filter>
+    </ClCompile>
+    <ClCompile Include="SysResManageWnd.cpp">
+      <Filter>ResSys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interface\DB\RecordItem.cpp">
+      <Filter>ExData\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordInfoSheetDlg.cpp">
+      <Filter>ResSys</Filter>
+    </ClCompile>
+    <ClCompile Include="RecPPClassDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordDetails.cpp">
+      <Filter>ResSys</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordDetailsClassDlg.cpp">
+      <Filter>ResSys</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordDetailsContentDlg.cpp">
+      <Filter>ResSys</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectoryTreeCtrl.cpp">
+      <Filter>ResSys</Filter>
+    </ClCompile>
+    <ClCompile Include="DataInfos.cpp">
+      <Filter>define Model</Filter>
+    </ClCompile>
+    <ClCompile Include="HTRichEditCtrl.cpp">
+      <Filter>ResSys</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>ResSys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interface\DB\SID.cpp">
+      <Filter>ExData\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="DETimeValue.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interface\DB\RecordAttachs.cpp">
+      <Filter>ExData\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordDetailsAttachDlg.cpp">
+      <Filter>ResSys</Filter>
+    </ClCompile>
+    <ClCompile Include="AttachAddDlg.cpp">
+      <Filter>ResSys</Filter>
+    </ClCompile>
+    <ClCompile Include="WyytRichEditCtrl.cpp">
+      <Filter>ResSys</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportMange.cpp">
+      <Filter>ExData\sqllite</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite3.c">
+      <Filter>ExData\sqllite</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLiteDB.cpp">
+      <Filter>ExData\sqllite</Filter>
+    </ClCompile>
+    <ClCompile Include="AttachsDlg.cpp">
+      <Filter>ResSys</Filter>
+    </ClCompile>
+    <ClCompile Include="RichEditCtrlX.cpp">
+      <Filter>ResSys</Filter>
+    </ClCompile>
+    <ClCompile Include="FileDetailDialog.cpp">
+      <Filter>ResSys</Filter>
+    </ClCompile>
+    <ClCompile Include="EditDelayed2.cpp">
+      <Filter>ResSys</Filter>
+    </ClCompile>
+    <ClCompile Include="TestDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrivateClassesTreeCtrl.cpp">
+      <Filter>ResPrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="PrivateSharedRecordsCtrl.cpp">
+      <Filter>ResPrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="ResPublic.cpp">
+      <Filter>ResPublic</Filter>
+    </ClCompile>
+    <ClCompile Include="PriResManageWnd.cpp">
+      <Filter>ResPrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="wyytExtendDataManagePri.cpp">
+      <Filter>ExData</Filter>
+    </ClCompile>
+    <ClCompile Include="PPgDirSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PPgSecurity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckPwdDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WyytSystrayDlg.cpp">
+      <Filter>Interface Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TrayMenuBtn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GradientStatic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DonateDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WininetHttp.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="PCInfo.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="langids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Preferences.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wyyt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="maininfo.h">
+      <Filter>Comment</Filter>
+    </ClInclude>
+    <ClInclude Include="wyytDlg.h">
+      <Filter>Interface Header</Filter>
+    </ClInclude>
+    <ClInclude Include="XMessageBox.h">
+      <Filter>Interface Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ModInfo.h">
+      <Filter>define Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Opcodes.h">
+      <Filter>define Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>define Model</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogMinTrayBtn.h">
+      <Filter>Interface Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualStylesXP.h">
+      <Filter>Interface Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AfxBeginMsgMapTemplate.h">
+      <Filter>Interface Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TrayDialog.h">
+      <Filter>Interface Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MuleStatusBarCtrl.h">
+      <Filter>Interface Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MuleToolBarCtrl.h">
+      <Filter>Interface Header</Filter>
+    </ClInclude>
+    <ClInclude Include="EnBitmap.h">
+      <Filter>Interface Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GDIPlusUtil.h">
+      <Filter>Interface Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleMenu.h">
+      <Filter>Interface Header</Filter>
+    </ClInclude>
+    <ClInclude Include="map_inc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterDlg.h">
+      <Filter>Interface Header</Filter>
+    </ClInclude>
+    <ClInclude Include="EditDelayed.h">
+      <Filter>Interface Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterItem.h">
+      <Filter>Interface Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupResManageWnd.h">
+      <Filter>Interface Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitterControl.h">
+      <Filter>Interface Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ListViewWalkerPropertySheet.h">
+      <Filter>Interface Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrlItemWalk.h">
+      <Filter>Interface Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ArchivePreviewDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wyyt_site_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeterIcon.h">
+      <Filter>Interface Header</Filter>
+    </ClInclude>
+    <ClInclude Include="NEO\Modeless.h">
+      <Filter>Interface Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PreferencesDlg.h">
+      <Filter>属性页</Filter>
+    </ClInclude>
+    <ClInclude Include="TreePropSheet.h">
+      <Filter>属性页</Filter>
+    </ClInclude>
+    <ClInclude Include="TreePropSheetPgFrame.h">
+      <Filter>属性页</Filter>
+    </ClInclude>
+    <ClInclude Include="TreePropSheetPgFrameDef.h">
+      <Filter>属性页</Filter>
+    </ClInclude>
+    <ClInclude Include="PPgGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="devlib_include.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="wyytExtendDataManage.h">
+      <Filter>ExData</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherFunctions.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="ini2.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="StringConversion.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalFunction.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="UserMsgs.h">
+      <Filter>define Model</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuCmds.h">
+      <Filter>define Model</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedDirsTreeCtrl.h">
+      <Filter>ResSys</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedFilesCtrl.h">
+      <Filter>ResSys</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolTipCtrlX.h">
+      <Filter>ResSys</Filter>
+    </ClInclude>
+    <ClInclude Include="MuleListCtrl.h">
+      <Filter>ResSys</Filter>
+    </ClInclude>
+    <ClInclude Include="MemDC.h">
+      <Filter>ResSys</Filter>
+    </ClInclude>
+    <ClInclude Include="AddModClassInfoDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataAccess.h">
+      <Filter>ExData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interface\db\I_T_SysClassInfos_Oper.h">
+      <Filter>ExData\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Sqlite_T_SysClassInfos_Oper.h">
+      <Filter>ExData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interface\DB\DbDefine.h">
+      <Filter>ExData\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interface\DB\DataStructDefine.h">
+      <Filter>ExData\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportDefine.h">
+      <Filter>ExData</Filter>
+    </ClInclude>
+    <ClInclude Include="SysResManageWnd.h">
+      <Filter>ResSys</Filter>
+    </ClInclude>
+    <ClInclude Include="SysResSearchDlg.h">
+      <Filter>ResSys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interface\DB\RecordItem.h">
+      <Filter>ExData\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordInfoSheetDlg.h">
+      <Filter>ResSys</Filter>
+    </ClInclude>
+    <ClInclude Include="RecPPClassDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordDetails.h">
+      <Filter>ResSys</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordDetailsClassDlg.h">
+      <Filter>ResSys</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordDetailsContentDlg.h">
+      <Filter>ResSys</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectoryTreeCtrl.h">
+      <Filter>ResSys</Filter>
+    </ClInclude>
+    <ClInclude Include="DataInfos.h">
+      <Filter>define Model</Filter>
+    </ClInclude>
+    <ClInclude Include="HighColorTab.hpp">
+      <Filter>ResSys</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>ResSys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interface\DB\SID.h">
+      <Filter>ExData\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="DETimeValue.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interface\DB\RecordAttachs.h">
+      <Filter>ExData\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordDetailsAttachDlg.h">
+      <Filter>ResSys</Filter>
+    </ClInclude>
+    <ClInclude Include="AttachAddDlg.h">
+      <Filter>ResSys</Filter>
+    </ClInclude>
+    <ClInclude Include="WyytRichEditCtrl.h">
+      <Filter>ResSys</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportMange.h">
+      <Filter>ExData\sqllite</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteDB.h">
+      <Filter>ExData\sqllite</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3.h">
+      <Filter>ExData\sqllite</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3ext.h">
+      <Filter>ExData\sqllite</Filter>
+    </ClInclude>
+    <ClInclude Include="AttachsDlg.h">
+      <Filter>ResSys</Filter>
+    </ClInclude>
+    <ClInclude Include="RichEditCtrlX.h">
+      <Filter>ResSys</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDetailDialog.h">
+      <Filter>ResSys</Filter>
+    </ClInclude>
+    <ClInclude Include="EditDelayed2.h">
+      <Filter>ResSys</Filter>
+    </ClInclude>
+    <ClInclude Include="TestDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateClassesTreeCtrl.h">
+      <Filter>ResPrivate</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateSharedRecordsCtrl.h">
+      <Filter>ResPrivate</Filter>
+    </ClInclude>
+    <ClInclude Include="ResPublic.h">
+      <Filter>ResPublic</Filter>
+    </ClInclude>
+    <ClInclude Include="PriResManageWnd.h">
+      <Filter>ResPrivate</Filter>
+    </ClInclude>
+    <ClInclude Include="wyytExtendDataManagePri.h">
+      <Filter>ExData</Filter>
+    </ClInclude>
+    <ClInclude Include="PPgDirSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PPgSecurity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckPwdDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WyytSystrayDlg.h">
+      <Filter>Interface Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TrayMenuBtn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GradientStatic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DonateDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PCInfo.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="WininetHttp.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\wyyt.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\wyyt.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+    <None Include="res\ConnectDo.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ConnectDrop.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ConnectStop.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Kad.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Server.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Transfer.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Tools.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Search.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SharedFiles.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Messages.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\IRC.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Statistics.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Preferences.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Help.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ArchivePreview.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ihas.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\TrayConnected.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\TrayDisconnected.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\TrayLowID.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ListViewSortDown2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ListViewSortDown.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ListViewSortUp2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ListViewSortUp.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon2.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SaveAs.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\AlterVersion.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Comment.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\notes.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\note.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\AddParent.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\AddSon.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ModClassInfo.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\DelClassInfo.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\note_select.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\note_recomm.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\AddRecord.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ModRecord.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\DelRecord.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ShowRecord.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RecordClassInfos.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RecordContentInfos.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RecordAttachInfos.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\AttachsPreview.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SearchEdit.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\clear1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\clear2.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Folders.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Security.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="res\Construction.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RestoreWindow.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Exit.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\About.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="wyyt.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
