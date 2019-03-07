@@ -1,0 +1,79 @@
+﻿生成启动时间为 2019/3/6 20:11:12。
+     1>项目“F:\IHAS\工程清理\ProjCleaner_Src\ProjCleaner\ProjCleaner.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\ProjCleaner.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\ProjCleaner.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\ProjCleaner.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ConfigDlg.cpp DutyDlg.cpp Fun.cpp MyListBox.cpp MyListCtrl.cpp MyTreeCtrl.cpp ProjCleaner.cpp ProjCleanerDlg.cpp XHtmlTree\CeXDib.cpp XHtmlTree\CreateCheckboxImageList.cpp XHtmlTree\PPDrawManager.cpp XHtmlTree\PPHtmlDrawer.cpp XHtmlTree\PPTooltip.cpp XHtmlTree\VisualStylesXP.cpp XHtmlTree\XHtmlTree.cpp XHtmlTree\XmlDocument.cpp IconListBox\IconListBox.cpp XTipComboBox\XTipComboBox.cpp XTipComboBox\XTipListBox.cpp ExtStatusControlBar\ExtStatusControlBar.cpp ShellFileOp\ShellFileOp.cpp
+         ConfigDlg.cpp
+     1>ConfigDlg.cpp(426): warning C4102: “__Error_End”: 未引用的标签
+         DutyDlg.cpp
+         Fun.cpp
+         MyListBox.cpp
+         MyListCtrl.cpp
+         MyTreeCtrl.cpp
+         ProjCleaner.cpp
+         ProjCleanerDlg.cpp
+         CeXDib.cpp
+         CreateCheckboxImageList.cpp
+         PPDrawManager.cpp
+         PPHtmlDrawer.cpp
+         PPTooltip.cpp
+         VisualStylesXP.cpp
+         XHtmlTree.cpp
+         XmlDocument.cpp
+         IconListBox.cpp
+         XTipComboBox.cpp
+         XTipListBox.cpp
+         ExtStatusControlBar.cpp
+         正在编译...
+         ShellFileOp.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt XHtmlTree\XHtmlDraw.cpp XHtmlTree\XHtmlDrawLink.cpp XHtmlTree\XNamedColors.cpp XHtmlTree\XString.cpp
+         XHtmlDraw.cpp
+         XHtmlDrawLink.cpp
+         XNamedColors.cpp
+         XString.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0409" /IRelease\ /nologo /fo"Release\ProjCleaner.res" ProjCleaner.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\IHAS\工程清理\ProjCleaner_Src\Release\ProjCleaner.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\ProjCleaner.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\IHAS\工程清理\ProjCleaner_Src\Release\ProjCleaner.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE:NO /IMPLIB:"F:\IHAS\工程清理\ProjCleaner_Src\Release\ProjCleaner.lib" /MACHINE:X86 Release\ProjCleaner.res
+         Release\ConfigDlg.obj
+         Release\DutyDlg.obj
+         Release\Fun.obj
+         Release\MyListBox.obj
+         Release\MyListCtrl.obj
+         Release\MyTreeCtrl.obj
+         Release\ProjCleaner.obj
+         Release\ProjCleanerDlg.obj
+         Release\stdafx.obj
+         Release\CeXDib.obj
+         Release\CreateCheckboxImageList.obj
+         Release\PPDrawManager.obj
+         Release\PPHtmlDrawer.obj
+         Release\PPTooltip.obj
+         Release\VisualStylesXP.obj
+         Release\XHtmlDraw.obj
+         Release\XHtmlDrawLink.obj
+         Release\XHtmlTree.obj
+         Release\XmlDocument.obj
+         Release\XNamedColors.obj
+         Release\XString.obj
+         Release\IconListBox.obj
+         Release\XTipComboBox.obj
+         Release\XTipListBox.obj
+         Release\ExtStatusControlBar.obj
+         Release\ShellFileOp.obj
+         正在生成代码
+         已完成代码的生成
+         ProjCleaner.vcxproj -> F:\IHAS\工程清理\ProjCleaner_Src\Release\ProjCleaner.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\IHAS\工程清理\ProjCleaner_Src\Release\ProjCleaner.exe;#1" /manifest Release\ProjCleaner.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\ProjCleaner.unsuccessfulbuild”。
+         正在对“Release\ProjCleaner.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\IHAS\工程清理\ProjCleaner_Src\ProjCleaner\ProjCleaner.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:17.22

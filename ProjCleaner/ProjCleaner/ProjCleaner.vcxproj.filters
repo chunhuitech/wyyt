@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="XHtmlTree">
+      <UniqueIdentifier>{9ed4e16f-900e-4489-967e-b4b4f0342a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IconListBox">
+      <UniqueIdentifier>{203ca68e-2b59-4999-801b-11533728d7ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XTipComboBox">
+      <UniqueIdentifier>{eb67f40a-08cf-4685-935b-35c457a43fd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtStatusControlBar">
+      <UniqueIdentifier>{d73c9213-1555-440d-b445-a73947b6809c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShellFileOp">
+      <UniqueIdentifier>{cc921ccc-9667-4881-b4ea-382c1d66cbea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConfigDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DutyDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyListBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyListCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTreeCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjCleaner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjCleanerDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XHtmlTree\CeXDib.cpp">
+      <Filter>XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="XHtmlTree\CreateCheckboxImageList.cpp">
+      <Filter>XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="XHtmlTree\PPDrawManager.cpp">
+      <Filter>XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="XHtmlTree\PPHtmlDrawer.cpp">
+      <Filter>XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="XHtmlTree\PPTooltip.cpp">
+      <Filter>XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="XHtmlTree\VisualStylesXP.cpp">
+      <Filter>XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="XHtmlTree\XHtmlDraw.cpp">
+      <Filter>XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="XHtmlTree\XHtmlDrawLink.cpp">
+      <Filter>XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="XHtmlTree\XHtmlTree.cpp">
+      <Filter>XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="XHtmlTree\XmlDocument.cpp">
+      <Filter>XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="XHtmlTree\XNamedColors.cpp">
+      <Filter>XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="XHtmlTree\XString.cpp">
+      <Filter>XHtmlTree</Filter>
+    </ClCompile>
+    <ClCompile Include="IconListBox\IconListBox.cpp">
+      <Filter>IconListBox</Filter>
+    </ClCompile>
+    <ClCompile Include="XTipComboBox\XTipComboBox.cpp">
+      <Filter>XTipComboBox</Filter>
+    </ClCompile>
+    <ClCompile Include="XTipComboBox\XTipListBox.cpp">
+      <Filter>XTipComboBox</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtStatusControlBar\ExtStatusControlBar.cpp">
+      <Filter>ExtStatusControlBar</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellFileOp\ShellFileOp.cpp">
+      <Filter>ShellFileOp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConfigDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DutyDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyListBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyListCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTreeCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjCleaner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjCleanerDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XHtmlTree\CeXDib.h">
+      <Filter>XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="XHtmlTree\CreateCheckboxImageList.h">
+      <Filter>XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="XHtmlTree\PPDrawManager.h">
+      <Filter>XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="XHtmlTree\PPHtmlDrawer.h">
+      <Filter>XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="XHtmlTree\PPTooltip.h">
+      <Filter>XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="XHtmlTree\VisualStylesXP.h">
+      <Filter>XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="XHtmlTree\XHtmlDraw.h">
+      <Filter>XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="XHtmlTree\XHtmlDrawLink.h">
+      <Filter>XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="XHtmlTree\XHtmlTree.h">
+      <Filter>XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="XHtmlTree\XmlDocument.h">
+      <Filter>XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="XHtmlTree\XNamedColors.h">
+      <Filter>XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="XHtmlTree\XString.h">
+      <Filter>XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="XHtmlTree\XTrace.h">
+      <Filter>XHtmlTree</Filter>
+    </ClInclude>
+    <ClInclude Include="IconListBox\IconListBox.h">
+      <Filter>IconListBox</Filter>
+    </ClInclude>
+    <ClInclude Include="XTipComboBox\XTipComboBox.h">
+      <Filter>XTipComboBox</Filter>
+    </ClInclude>
+    <ClInclude Include="XTipComboBox\XTipListBox.h">
+      <Filter>XTipComboBox</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtStatusControlBar\ExtStatusControlBar.h">
+      <Filter>ExtStatusControlBar</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellFileOp\ShellFileOp.h">
+      <Filter>ShellFileOp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\IDB_FOLDER_CLOSE.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\IDB_FOLDER_OPEN.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Item_File.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Item_Folder.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ProjCleaner.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ProjCleaner.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Top_Bmp.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Top_GIF.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Top_JPG.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Default.xml" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ProjCleaner.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
