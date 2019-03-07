@@ -219,11 +219,11 @@ void CMuleToolbarCtrl::Init(void)
 	sepButton.iString = -1;
 	sepButton.iBitmap = -1;
 	CString config;
-#ifdef _PUBLISH_
+//#ifdef _PUBLISH_
 	config = L"01039909991011";
-#else
-	config = thePrefs.GetToolbarSettings();
-#endif // _PUBLISH_
+//#else
+	//config = thePrefs.GetToolbarSettings();
+//#endif // _PUBLISH_
 
 	for (int i = 0; i < config.GetLength(); i += 2)
 	{
